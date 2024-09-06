@@ -1,0 +1,93 @@
+---
+title: Basic Python Programming
+subtitle: Dynamic evaluation of user provided code and data visualisation
+format: html
+filters:
+  - pyodide
+jupyter: python3
+execute: 
+  enabled: true
+
+---
+
+## Introduction
+
+This chapter introduce the `python` programming for beginers.
+
+This book is created with Quarto and `pyodide` extension is cused for online python scripting to demonstrate the python programming in this course site itself.
+
+See @knuth84 for additional discussion of literate programming.
+
+```{pyodide-python}
+a=10
+print(a)
+```
+
+<<<<<<< HEAD
+
+
+
+## Examples
+
+**Program 1:**Write a `Python` program to print Hai.
+
+```{pyodide-python}
+print("Hai")
+```
+:::{.panel-tabset}
+## Syntax
+```{.python}
+# to print a string "prompt"
+print("prompt")
+# to print a variable 
+print(variable)
+```
+## DIY
+
+```{pyodide-python}
+print("prompt")
+variable=10
+print(variable)
+```
+:::
+
+
+:::{.panel-tabset}
+## Syntax
+```{.python}
+# to print sum of two numbers
+print(sum)
+# to cocatenate two strings
+print(Newstring)
+```
+## DIY
+
+```{pyodide-python}
+a=10
+b=20
+sum=a+b
+print(sum)
+a=("Good")
+b=(" Evening")
+Newstring=a+b
+print(Newstring)
+```
+:::
+
+
+
+```{pyodide-python}
+# Note: change this value for a different result
+num = 8 
+
+# To take the input from the user
+#num = float(input('Enter a number: '))
+
+num_sqrt = num ** 0.5
+print('The square root of %0.3f is %0.3f'%(num ,num_sqrt))
+
+```
+:::
+=======
+## Examples
+>>>>>>> 27b727d126bdc707a0e0b6cd106d0736cab8c586
